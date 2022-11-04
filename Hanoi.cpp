@@ -2,6 +2,10 @@
 using namespace std;
 int main()
 {
-    cout << "Hello World!\n";
+    cin >> n;
+    a = 'X';
+    b = 'Z';
+    c = 'Y';
+    hanoi(n, a, c, b);
 }
 
